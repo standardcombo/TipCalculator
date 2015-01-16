@@ -14,6 +14,7 @@
 		6B2BA0451A68869400B7D8EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B2BA0441A68869400B7D8EC /* Images.xcassets */; };
 		6B2BA0481A68869400B7D8EC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B2BA0461A68869400B7D8EC /* LaunchScreen.xib */; };
 		6B2BA0541A68869400B7D8EC /* TipCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B2BA0531A68869400B7D8EC /* TipCalculatorTests.m */; };
+		6B2BA05E1A68A8A200B7D8EC /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B2BA05D1A68A8A200B7D8EC /* SettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		6B2BA04D1A68869400B7D8EC /* TipCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B2BA0521A68869400B7D8EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B2BA0531A68869400B7D8EC /* TipCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipCalculatorTests.m; sourceTree = "<group>"; };
+		6B2BA05D1A68A8A200B7D8EC /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		6B2BA05F1A68A8B000B7D8EC /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				6B2BA03C1A68869400B7D8EC /* AppDelegate.m */,
 				6B2BA03E1A68869400B7D8EC /* ViewController.h */,
 				6B2BA03F1A68869400B7D8EC /* ViewController.m */,
+				6B2BA05F1A68A8B000B7D8EC /* SettingsViewController.h */,
+				6B2BA05D1A68A8A200B7D8EC /* SettingsViewController.m */,
 				6B2BA0411A68869400B7D8EC /* Main.storyboard */,
 				6B2BA0441A68869400B7D8EC /* Images.xcassets */,
 				6B2BA0461A68869400B7D8EC /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 				6B2BA0401A68869400B7D8EC /* ViewController.m in Sources */,
 				6B2BA03D1A68869400B7D8EC /* AppDelegate.m in Sources */,
 				6B2BA03A1A68869400B7D8EC /* main.m in Sources */,
+				6B2BA05E1A68A8A200B7D8EC /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

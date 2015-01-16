@@ -27,7 +27,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    // Load
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    long intValue = [defaults integerForKey:@"settings_default_tip_index"];
+    self.tipPercentSegmentedControl.selectedSegmentIndex = intValue;
 }
 
 - (void)didReceiveMemoryWarning {
