@@ -2,7 +2,7 @@
 
 This is the pre-work Tip Calculator project.
 
-Time spent: 2 hours
+Time spent: 3 hours
 
 Completed user stories:
 
